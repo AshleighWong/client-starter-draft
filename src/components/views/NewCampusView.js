@@ -46,18 +46,19 @@ const useStyles = makeStyles( () => ({
                 <input type="text" name="name" onChange ={(e) => handleChange(e)} />
                 <br/>
                 <br/>
+
+                <label style= {{color:'#11153e', fontWeight: 'bold'}}>imageUrl: </label>
+                <input type="text" name="imageUrl" onChange ={(e) => handleChange(e)} />
+                <br/>
+                <br/>
     
                 <label style={{color:'#11153e', fontWeight: 'bold'}}>address: </label>
                 <input type="text" name="address" onChange={(e) => handleChange(e)} />
                 <br/>
                 <br/>
+
                 <label style={{color:'#11153e', fontWeight: 'bold'}}>description: </label>
                 <input type="text" name="description" onChange={(e) => handleChange(e)} />
-                <br/>
-                <br/>
-    
-                <label style={{color:'#11153e', fontWeight: 'bold'}}>Campus Id: </label>
-                <input type="text" name="campusId" onChange={(e) => handleChange(e)} />
                 <br/>
                 <br/>
     
