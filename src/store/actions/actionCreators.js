@@ -36,12 +36,20 @@ export const addStudent = (student) => {
   };
 };
 
+//create add and delete campus
 export const addCampus = (campus) => {
   return {
     type: at.ADD_CAMPUS,
     payload: campus,
   };
 };
+
+/*export const deleteCampus = (campusId) => {
+  return {
+    type: at.DELETE_STUDENT,
+    payload: studentId,
+  };
+};*/
 
 export const deleteStudent = (studentId) => {
   return {
